@@ -5,12 +5,13 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { DevstackComponent } from './components/devstack/devstack.component';
 import { ResponsiveComponent } from './components/responsive/responsive.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatButtonModule, MatFormFieldModule, MatInputModule,DevstackComponent, ResponsiveComponent],
+  imports: [RouterOutlet, MatButtonModule, MatFormFieldModule, MatInputModule,DevstackComponent, ResponsiveComponent, DashboardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
